@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Appscrip-task-Sahitya-Naik
 
-## Getting Started
+## Overview
+This is a **Product Listing Page (PLP)** built as per the Figma design task. Implemented using **Next.js + React.js**, the page is fully responsive, SEO-friendly, and features a clean, minimal design.  
 
-First, run the development server:
+---
 
+## Live Demo
+[View Live](#) *(replace `#` with your deployed URL)*  
+
+---
+
+## Features
+- **Responsive Layout:** Optimized for desktop, tablet, and mobile.  
+- **Product Grid:** Displays products with badges (`NEW`, `OUT OF STOCK`) and a toggleable favorite icon.  
+- **Footer:** Newsletter subscription, contact info, currency selector, social links, and payment icons.  
+- **SEO & Accessibility:**  
+  - Descriptive `alt` text for images  
+  - SEO-friendly filenames (e.g., `leather-handbag.jpg`)  
+  - Proper heading structure (`H1`, `H2`, `H3`)  
+- Minimal external packages for **low DOM and fast performance**.
+
+---
+
+## Tech Stack
+- **Frontend:** React.js, Next.js  
+- **Styling:** CSS Modules  
+- **Icons:** React Icons (Fa, Ai, Io)  
+- **Deployment:** Vercel / Netlify  
+
+---
+
+## Run Locally
 ```bash
+git clone https://github.com/<your-username>/Appscrip-task-Sahitya-Naik.git
+cd Appscrip-task-Sahitya-Naik
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
