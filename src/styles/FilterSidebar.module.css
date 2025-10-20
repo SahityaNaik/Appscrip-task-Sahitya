@@ -1,0 +1,82 @@
+.sidebar {
+  width: 250px;
+  padding: 20px;
+  background-color: #fff;
+  font-size: 14px;
+  margin-left: 20px;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.open {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.closed {
+  transform: translateX(-120%);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.customizable {
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+  gap: 8px;
+  font-weight: 600;
+  border-bottom: 1.5px solid #ddd;
+}
+
+.filters {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px 0;
+}
+
+.filterHeader {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 10px 0;
+  transition: color 0.2s ease;
+}
+
+.filterHeader:hover {
+  color: #555;
+}
+
+.filterHeaderDefault {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.allOption {
+  font-weight: 200;
+}
+
+.optionsList {
+  list-style: none;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.optionsList label {
+  margin-left: 4px;
+}
+
+.unselectAll {
+  color: #8f8d8d;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: none !important;
+  }
+}

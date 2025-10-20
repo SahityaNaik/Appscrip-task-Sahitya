@@ -1,0 +1,96 @@
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1.5px solid #ddd;
+  border-bottom: 1.5px solid #ddd;
+  padding: 15px 40px;
+  background-color: #fff;
+  font-size: 13px;
+  flex-wrap: wrap;
+}
+
+.left {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.itemsCount {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.filterToggle {
+  background: none;
+  border: none;
+  font-weight: 200;
+  cursor: pointer;
+  color: #807f7f;
+  transition: color 0.2s ease;
+  text-decoration: underline;
+}
+
+.filterToggle:hover {
+  color: #000;
+}
+
+.arrowIcon {
+  margin-right: 6px;
+  vertical-align: middle;
+  font-size: 16px;
+}
+
+.sortSelect {
+  border: none;
+  padding: 6px 10px;
+  font-size: 13px;
+  font-weight: 600;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.mobileBar {
+  display: none;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.mobileFilter {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.mobileDivider {
+  width: 1px;
+  background-color: #000;
+  height: 20px;
+}
+
+.mobileSort {
+  border: none;
+  padding: 6px 10px;
+  font-size: 13px;
+  font-weight: 600;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+/* ---------- MOBILE VIEW ---------- */
+@media (max-width: 768px) {
+  .left,
+  .right {
+    display: none;
+  }
+
+  .mobileBar {
+    display: flex;
+  }
+
+  .mobileFilter {
+    margin-right: 100px;
+  }
+}

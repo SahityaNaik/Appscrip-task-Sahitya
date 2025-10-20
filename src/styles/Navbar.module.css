@@ -1,0 +1,138 @@
+.navbar {
+  width: 100%;
+  border-bottom: 1.5px solid #ddd;
+  background-color: #fff;
+}
+
+.topRow {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 70px;
+}
+
+.center .logoText {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 700;
+  font-size: 23px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.iconGroup {
+  display: flex;
+  gap: 15px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.languageSelect {
+  border: none;
+  background: transparent;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.menuBar ul {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+
+.menuBar ul li {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.menuBar ul li:hover {
+  color: #555;
+}
+
+.hamburger {
+  display: none;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+/* ---------- MOBILE VIEW ---------- */
+@media (max-width: 768px) {
+  .topRow {
+    padding: 15px 20px;
+    justify-content: space-between;
+  }
+
+  .left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .menuBar {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .languageSelect {
+    display: none;
+  }
+
+  .accountIcon {
+    display: none;
+  }
+
+  .center .logoText {
+    position: static;
+    transform: none;
+    font-size: 20px;
+  }
+
+  .menuBar {
+    display: none;
+    flex-direction: column;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    padding: 15px 0;
+  }
+
+  .menuBar ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .showMenu {
+    display: flex;
+  }
+}
+
+@media (max-width: 480px) {
+  .iconGroup {
+    gap: 12px;
+    font-size: 17px;
+  }
+
+  .center .logoText {
+    font-size: 18px;
+  }
+}
