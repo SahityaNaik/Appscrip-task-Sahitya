@@ -6,7 +6,7 @@ This is a **Product Listing Page (PLP)** built as per the Figma design task. Imp
 ---
 
 ## Live Demo
-[View Live](#) *(replace `#` with your deployed URL)*  
+[View Live](https://appscrip-task-sahitya.netlify.app/)  
 
 ---
 
@@ -16,23 +16,22 @@ This is a **Product Listing Page (PLP)** built as per the Figma design task. Imp
 - **Footer:** Newsletter subscription, contact info, currency selector, social links, and payment icons.  
 - **SEO & Accessibility:**  
   - Descriptive `alt` text for images  
-  - SEO-friendly filenames (e.g., `leather-handbag.jpg`)  
+  - SEO-friendly filenames.
   - Proper heading structure (`H1`, `H2`, `H3`)  
-- Minimal external packages for **low DOM and fast performance**.
 
 ---
 
 ## Tech Stack
 - **Frontend:** React.js, Next.js  
 - **Styling:** CSS Modules  
-- **Icons:** React Icons (Fa, Ai, Io)  
-- **Deployment:** Vercel / Netlify  
+- **Icons:** React Icons 
+- **Deployment:** Netlify  
 
 ---
 
 ## Run Locally
 ```bash
-git clone https://github.com/<your-username>/Appscrip-task-Sahitya-Naik.git
+git clone https://github.com/SahityaNaik/Appscrip-task-Sahitya-Naik.git
 cd Appscrip-task-Sahitya-Naik
 npm install
 npm run dev
