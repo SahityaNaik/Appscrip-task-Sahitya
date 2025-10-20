@@ -233,13 +233,25 @@
     margin-top: 10px;
   }
 
+  .accepts {
+    font-size: 13px;
+    margin-top: 10px;
+  }
+
   .paymentIcons {
     flex-wrap: wrap;
     gap: 10px;
+    margin-top: 8px;
   }
 
   .divider {
     margin: 20px 0;
+  }
+
+  .dividerMobile {
+    border: none;
+    border-top: 1px solid #333;
+    margin: 15px 0;
   }
 
   .copyright {

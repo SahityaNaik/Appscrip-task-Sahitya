@@ -130,7 +130,9 @@ const Footer = () => {
               <AiFillInstagram className={styles.instagramIcon} />
               <AiFillLinkedin className={styles.linkedinIcon} />
             </div>
-
+          </div>
+            
+            <hr className={styles.dividerMobile} />
             <h4 className={styles.accepts}>mettā muse ACCEPTS</h4>
             <div className={styles.paymentIcons}>
               <Image
@@ -167,7 +169,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
+      
 
       {/* Copyright Section  */}
       <div className={styles.copyright}>
